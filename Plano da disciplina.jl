@@ -28,16 +28,15 @@ md"""
 
 ## Resultados de aprendizagem esperados
 
-### 🥇 Identificar as teorias e equações que fundamentam a Mecânica dos Sólidos
+#### 🥇 Identificar as teorias e equações que fundamentam a Mecânica dos Sólidos
 
-### 🥈 Identificar e calcular os esforços aplicados que se relacionam com a tensão e deformação nos materias.
+#### 🥈 Identificar e calcular os esforços aplicados que se relacionam com a tensão e deformação nos materias.
 
 ## Metodologia
 
 ### Estratégia
 
 Com base no livro de ELMÔR FILHO, Gabriel et al. $(html"<a href='https://g.co/kgs/z62mSU' target='_blank'>Uma nova sala de aula é possível: aprendizagem ativa na educação em engenharia.</a>") Rio de Janeiro: LTC, 2019.
-
 
 
 Será aplicada a **Sala de aula invertida** com utilização da Estratégia *Co-op co-op* que é uma estratégia cooperativa de aprendizagem ativa.
@@ -198,4 +197,4 @@ Avaliações que serão consideradas:
 
 # ╔═╡ Cell order:
 # ╟─e6e24892-e2b7-472f-9a5c-7d1cbe34eeb6
-# ╟─f92f9d30-b368-11eb-2e66-a7bbf5a4a943
+# ╠═f92f9d30-b368-11eb-2e66-a7bbf5a4a943
