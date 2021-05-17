@@ -1,0 +1,159 @@
+‹¥bonds€¬cell_results‚Ù$4fb54a13-3db2-4475-bd49-fd0f9d5cefa4‡¦queuedÂ±published_objects€§runningÂ¦output…¤bodyÚ²<div class="markdown"><h2>Plano da Unidade 01 de MecÃ¢nica dos SÃ³lidos II - Breve exame dos mÃ©todos da EstÃ¡tica</h2>
+<h2>Ementa da Disciplina:</h2>
+<h3>Tema relacionado na ementa:</h3>
+<ol>
+<li><p>Diagramas de ForÃ§a Axial, Cortante e de Momentos.</p>
+</li>
+</ol>
+<h3>Subitens</h3>
+<ol>
+<li><p>IntroduÃ§Ã£o</p>
+</li>
+<li><p>Um breve exame dos mÃ©todos da EstÃ¡tica</p>
+</li>
+</ol>
+<h2>Resultados de aprendizagem esperados</h2>
+<p>âœ” Utilizar os mÃ©todos bÃ¡sicos da estÃ¡tica na determinaÃ§Ã£o das forÃ§as elementos conectados por pinos que formam uma estrutura simples.</p>
+<p>âœ” Apresentar a modelagem para cÃ¡lculo das forÃ§as em uma estrutura simples. </p>
+<p>âœ” Utilizar as ferramentas <a href='https://code.visualstudio.com/' target='_blank'>Vscode</a> e <a href='https://julialang.org/' target='_blank'>Linguagem Julia</a> e <a href='https://github.com/fonsp/Pluto.jl' target='_blank'>Pluto.jl</a> para o memorial de cÃ¡lculos e  apresentaÃ§Ã£o de relatÃ³rios.</p>
+<p>âœ” Interpretar e otimizar resultados. </p>
+<p>âœ” Discutir as duas tarefas principais dos engenheiros, a saber, o projeto e a anÃ¡lise das estruturas e mÃ¡quinas.</p>
+<p>âœ” Desenvolver estratÃ©gias para soluÃ§Ã£o de problemas. </p>
+<p>âœ” Estabelecer relaÃ§Ãµes interpessoais. </p>
+<p>âœ” Trabalhar em equipe. </p>
+<p>âœ” Comunicar-se oralmente. </p>
+<p>âœ” Ter responsabilidade coletiva.</p>
+<h1>Roteiro da Unidade</h1>
+<h4>Momento PrÃ©</h4>
+<p>ğŸ• 1. O professor anuncia por meio de uma orientaÃ§Ã£o por escrito &#40;Sala&#41;:</p>
+<ul>
+<li><p>A atividade a ser desenvolvida:</p>
+</li>
+</ul>
+<p>Implementar em liguagem Julia, utilizando vscode e Pluto.jl, uma modelo computacional que permina anÃ¡lise das forÃ§as na estrutura mostrada na Fig. 1.1 do livro do F. P. Beer, at al &#40;2011&#41;.</p>
+<ul>
+<li><p>O cronograma:</p>
+</li>
+</ul>
+<p>TerÃ§a-feira, 18 de maioâ‹…1:00 atÃ© 3:40pm</p>
+<p>ğŸ•‘  2. &#40;45 min&#41; Os estudantes tÃªm a tarefa de ler sobre o assunto e postar no Classroom resumo de atÃ© uma pÃ¡gina do que estudou &#40;Resumo prÃ©&#41;;</p>
+<h5>Bibliografia</h5>
+<ul>
+<li><p>BEER, Ferdinand P. et al. MecÃ¢nica dos materiais. Amgh, 2011.</p>
+</li>
+<li><p>DeWolf, John T.; Mazurek, David F.; P. Beer, Ferdinand; Johnston JR., E. Russell. MecÃ¢nica dos Materiais. AMGH. EdiÃ§Ã£o do Kindle. </p>
+</li>
+</ul>
+<h1>Roteiro da aula</h1>
+<h4>Momento Aula</h4>
+<p>ğŸ•’ 3. &#40;10 min&#41; RÃ¡pida apresentaÃ§Ã£o do tema pelo professor.</p>
+<p>ğŸ•“ 4. &#40;15 min&#41; PromoÃ§Ã£o de discussÃ£o sobre os interesses no tema que serÃ¡ estudado. O que querem aprender e experienciar durante a unidade? &#40;Sala&#41;.</p>
+<p>ğŸ•” 5. &#40;5 min&#41; SeleÃ§Ã£o do tÃ³pico que cada grupo irÃ¡ estudar. Os estudantes discutem seus interesses e selecionam um tÃ³pico para seu grupo &#40;Sala&#41;.</p>
+<p>ğŸ•• 6. &#40;5 min&#41; Cada grupo divide seu tÃ³pico em subtÃ³picos para dividir o trabalho dentro do grupo &#40;Sala&#41;.</p>
+<p>ğŸ•– 7. &#40;30 min&#41; PreparaÃ§Ã£o dos subtÃ³picos pelos membros do grupo &#40;estudo individual&#41;.</p>
+<p>ğŸ•— 8. &#40;10 min&#41; Os membros do grupo discutem o tema, como um painel de especialistas, apresentando os conceitos e questÃµes chaves &#40;reuniÃ£o do grupo&#41;.</p>
+<p>ğŸ•˜ 9. &#40;10 min&#41; ApresentaÃ§Ã£o formais dos subtÃ³picos em cada grupo &#40;reuniÃ£o do grupo&#41;.</p>
+<p>ğŸ•™ 10. &#40;5 min/grupo&#41; ApresentaÃ§Ãµes de subtÃ³picos pelos grupos &#40;seleÃ§Ã£o por sorteio a critÃ©rio do professsor&#41; &#40;sala&#41;.</p>
+<h2>Roteiro</h2>
+<h4>Momento PÃ³s</h4>
+<p>ğŸ•š 11. &#40;30 min&#41; PreparaÃ§Ã£o das apresentaÃ§Ãµes de cada um dos grupos &#40;reuniÃ£o do grupo&#41;.</p>
+<p>ğŸ•› 12. &#40;10 min&#41; Envio via Classroom do relatÃ³rio da atividade para postagem na internet &#40;atividade do grupo&#41;.</p>
+<p>ğŸ• 13. &#40;10 min/grupo&#41; ApresentaÃ§Ãµes de cada um dos grupos &#40;sala&#41;.</p>
+<p>ğŸ•‘ 14. &#40;20 min/grupo&#41; AvaliaÃ§Ãµes &#40;sala ou extra sala&#41;.</p>
+<p>ğŸ•’ 15. &#40;10 min/grupo&#41; Feedback &#40;sala&#41;.</p>
+</div>°persist_js_stateÂ¤mime©text/html²last_run_timestampËAØ(œ·”–x¬rootassigneeÀ§cell_idÙ$4fb54a13-3db2-4475-bd49-fd0f9d5cefa4§runtimeÍÏ	§erroredÂÙ$e9af4550-b632-11eb-1d0d-e11b45468706‡¦queuedÂ±published_objects€§runningÂ¦output…¤bodyÙ-<button onclick=present()> Presente </button>°persist_js_stateÂ¤mime©text/html²last_run_timestampËAØ(œ·’Æ¤¬rootassigneeÀ§cell_idÙ$e9af4550-b632-11eb-1d0d-e11b45468706§runtimeÍ	`§erroredÂ±cell_dependencies‚Ù$4fb54a13-3db2-4475-bd49-fd0f9d5cefa4„´precedence_heuristic§cell_idÙ$4fb54a13-3db2-4475-bd49-fd0f9d5cefa4´downstream_cells_map€²upstream_cells_mapƒ§@md_str©@html_str¨getindexÙ$e9af4550-b632-11eb-1d0d-e11b45468706„´precedence_heuristic§cell_idÙ$e9af4550-b632-11eb-1d0d-e11b45468706´downstream_cells_map€²upstream_cells_map©@html_str´cell_execution_order’Ù$e9af4550-b632-11eb-1d0d-e11b45468706Ù$4fb54a13-3db2-4475-bd49-fd0f9d5cefa4©shortpathÙ Plano Aula01 - ApresentaÃ§Ã£o.jl®process_status¨starting¤pathÙX/home/runner/work/Solid-mechanics-II/Solid-mechanics-II/Plano Aula01 - ApresentaÃ§Ã£o.jlªcell_order’Ù$e9af4550-b632-11eb-1d0d-e11b45468706Ù$4fb54a13-3db2-4475-bd49-fd0f9d5cefa4«cell_inputs‚Ù$4fb54a13-3db2-4475-bd49-fd0f9d5cefa4ƒ§cell_idÙ$4fb54a13-3db2-4475-bd49-fd0f9d5cefa4¤codeÚamd"""
+## Plano da Unidade 01 de MecÃ¢nica dos SÃ³lidos II - Breve exame dos mÃ©todos da EstÃ¡tica
+
+## Ementa da Disciplina:
+
+### Tema relacionado na ementa:
+
+1. Diagramas de ForÃ§a Axial, Cortante e de Momentos.
+
+### Subitens
+
+1. IntroduÃ§Ã£o
+
+1. Um breve exame dos mÃ©todos da EstÃ¡tica
+
+## Resultados de aprendizagem esperados
+
+âœ” Utilizar os mÃ©todos bÃ¡sicos da estÃ¡tica na determinaÃ§Ã£o das forÃ§as elementos conectados por pinos que formam uma estrutura simples.
+
+âœ” Apresentar a modelagem para cÃ¡lculo das forÃ§as em uma estrutura simples. 
+
+âœ” Utilizar as ferramentas $(html"<a href='https://code.visualstudio.com/' target='_blank'>Vscode</a>") e $(html"<a href='https://julialang.org/' target='_blank'>Linguagem Julia</a>") e $(html"<a href='https://github.com/fonsp/Pluto.jl' target='_blank'>Pluto.jl</a>") para o memorial de cÃ¡lculos e  apresentaÃ§Ã£o de relatÃ³rios.
+
+âœ” Interpretar e otimizar resultados. 
+
+âœ” Discutir as duas tarefas principais dos engenheiros, a saber, o projeto e a anÃ¡lise das estruturas e mÃ¡quinas.
+
+âœ” Desenvolver estratÃ©gias para soluÃ§Ã£o de problemas. 
+
+âœ” Estabelecer relaÃ§Ãµes interpessoais. 
+
+âœ” Trabalhar em equipe. 
+
+âœ” Comunicar-se oralmente. 
+
+âœ” Ter responsabilidade coletiva.
+
+
+# Roteiro da Unidade
+
+#### Momento PrÃ©
+
+ğŸ• 1. O professor anuncia por meio de uma orientaÃ§Ã£o por escrito (Sala):
+
+- A atividade a ser desenvolvida:
+
+Implementar em liguagem Julia, utilizando vscode e Pluto.jl, uma modelo computacional que permina anÃ¡lise das forÃ§as na estrutura mostrada na Fig. 1.1 do livro do F. P. Beer, at al (2011).
+
+- O cronograma:
+
+TerÃ§a-feira, 18 de maioâ‹…1:00 atÃ© 3:40pm
+
+ğŸ•‘  2. (45 min) Os estudantes tÃªm a tarefa de ler sobre o assunto e postar no Classroom resumo de atÃ© uma pÃ¡gina do que estudou (Resumo prÃ©);
+
+##### Bibliografia
+
+* BEER, Ferdinand P. et al. MecÃ¢nica dos materiais. Amgh, 2011.
+
+* DeWolf, John T.; Mazurek, David F.; P. Beer, Ferdinand; Johnston JR., E. Russell. MecÃ¢nica dos Materiais. AMGH. EdiÃ§Ã£o do Kindle. 
+
+
+# Roteiro da aula
+
+#### Momento Aula
+
+ğŸ•’ 3. (10 min) RÃ¡pida apresentaÃ§Ã£o do tema pelo professor.
+
+ğŸ•“ 4. (15 min) PromoÃ§Ã£o de discussÃ£o sobre os interesses no tema que serÃ¡ estudado. O que querem aprender e experienciar durante a unidade? (Sala).
+
+ğŸ•” 5. (5 min) SeleÃ§Ã£o do tÃ³pico que cada grupo irÃ¡ estudar. Os estudantes discutem seus interesses e selecionam um tÃ³pico para seu grupo (Sala).
+
+ğŸ•• 6. (5 min) Cada grupo divide seu tÃ³pico em subtÃ³picos para dividir o trabalho dentro do grupo (Sala).
+
+ğŸ•– 7. (30 min) PreparaÃ§Ã£o dos subtÃ³picos pelos membros do grupo (estudo individual).
+
+ğŸ•— 8. (10 min) Os membros do grupo discutem o tema, como um painel de especialistas, apresentando os conceitos e questÃµes chaves (reuniÃ£o do grupo).
+
+ğŸ•˜ 9. (10 min) ApresentaÃ§Ã£o formais dos subtÃ³picos em cada grupo (reuniÃ£o do grupo).
+
+ğŸ•™ 10. (5 min/grupo) ApresentaÃ§Ãµes de subtÃ³picos pelos grupos (seleÃ§Ã£o por sorteio a critÃ©rio do professsor) (sala).
+
+## Roteiro
+
+#### Momento PÃ³s
+
+ğŸ•š 11. (30 min) PreparaÃ§Ã£o das apresentaÃ§Ãµes de cada um dos grupos (reuniÃ£o do grupo).
+
+ğŸ•› 12. (10 min) Envio via Classroom do relatÃ³rio da atividade para postagem na internet (atividade do grupo).
+
+ğŸ• 13. (10 min/grupo) ApresentaÃ§Ãµes de cada um dos grupos (sala).
+
+ğŸ•‘ 14. (20 min/grupo) AvaliaÃ§Ãµes (sala ou extra sala).
+
+ğŸ•’ 15. (10 min/grupo) Feedback (sala).
+
+"""«code_foldedÃÙ$e9af4550-b632-11eb-1d0d-e11b45468706ƒ§cell_idÙ$e9af4550-b632-11eb-1d0d-e11b45468706¤codeÙ3html"<button onclick=present()> Presente </button>"«code_foldedÃ«notebook_idÙ$c7f7f1be-b715-11eb-2846-07e6dd0c68ec«in_temp_dirÂ
