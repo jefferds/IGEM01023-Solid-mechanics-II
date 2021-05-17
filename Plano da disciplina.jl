@@ -197,4 +197,4 @@ Avaliações que serão consideradas:
 
 # ╔═╡ Cell order:
 # ╟─e6e24892-e2b7-472f-9a5c-7d1cbe34eeb6
-# ╠═f92f9d30-b368-11eb-2e66-a7bbf5a4a943
+# ╟─f92f9d30-b368-11eb-2e66-a7bbf5a4a943
