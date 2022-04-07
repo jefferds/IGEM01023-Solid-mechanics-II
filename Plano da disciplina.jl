@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.14.5
+# v0.19.0
 
 using Markdown
 using InteractiveUtils
@@ -28,9 +28,9 @@ md"""
 
 ## Resultados de aprendizagem esperados
 
-#### 🥇 Identificar as teorias e equações que fundamentam a Mecânica dos Sólidos
+- 🥇 Identificar as teorias e equações que fundamentam a Mecânica dos Sólidos
 
-#### 🥈 Identificar e calcular os esforços aplicados que se relacionam com a tensão e deformação nos materias.
+- 🥈 Identificar e calcular os esforços aplicados que se relacionam com a tensão e deformação nos materias.
 
 ## Metodologia
 
@@ -99,12 +99,9 @@ Será aplicada a **Sala de aula invertida** com utilização da Estratégia *Co-
 ## Recursos e Materiais Didáticos
 
 1. Google Classroom;
-2. Google Meet para encontros;
-3. Jamboard como quadro branco;
-4. Google Forms para formulários e avaliações;
-5. Google Drive para arquivos (Docs, Slides, Planilhas, Desenhos);
-6. Os recurso $(html"<a href='https://code.visualstudio.com/' target='_blank'>Vscode</a>") e $(html"<a href='https://julialang.org/' target='_blank'>Linguagem Julia</a>") e $(html"<a href='https://github.com/fonsp/Pluto.jl' target='_blank'>Pluto.jl</a>") para Cálculos.
-7. Página do professor para registro dos casos.
+2. Google Forms para formulários e avaliações;
+3. Google Drive para arquivos (Docs, Slides, Planilhas, Desenhos);
+4. Os recurso $(html"<a href='https://code.visualstudio.com/' target='_blank'>Vscode</a>") e $(html"<a href='https://julialang.org/' target='_blank'>Linguagem Julia</a>") e $(html"<a href='https://github.com/fonsp/Pluto.jl' target='_blank'>Pluto.jl</a>") para Cálculos.
 
 ## Indicações de Referências
 
@@ -130,9 +127,8 @@ Será aplicada a **Sala de aula invertida** com utilização da Estratégia *Co-
 
 Avaliação será:
 
-- Contínua 
-- Individual 
-- Por atividade a ser desenvolvida
+- Contínua - Individual - Por atividade a ser desenvolvida (70% da nota)
+- Prova final (30% da nota)
 
 ## Procedimento de Avaliação da Apredizagem
 
@@ -143,6 +139,7 @@ Avaliação será:
 - No caso de duplicidade de avaliação será considerada sempre a última avaliação enviada.
 - Serão consideradas apenas as avaliações realizadas no período estipulado, ou até quando estiverem disponíveis no formulário.
 - Cada avaliação receberá uma pontuação de 0 a 100.
+
 - A nota para o conceito final será a média das notas das atividades propostas.
 
 ## Procedimento de Avaliação da Apredizage
@@ -195,6 +192,23 @@ Avaliações que serão consideradas:
 
 """
 
+# ╔═╡ 00000000-0000-0000-0000-000000000001
+PLUTO_PROJECT_TOML_CONTENTS = """
+[deps]
+"""
+
+# ╔═╡ 00000000-0000-0000-0000-000000000002
+PLUTO_MANIFEST_TOML_CONTENTS = """
+# This file is machine-generated - editing it directly is not advised
+
+julia_version = "1.7.2"
+manifest_format = "2.0"
+
+[deps]
+"""
+
 # ╔═╡ Cell order:
 # ╟─e6e24892-e2b7-472f-9a5c-7d1cbe34eeb6
-# ╟─f92f9d30-b368-11eb-2e66-a7bbf5a4a943
+# ╠═f92f9d30-b368-11eb-2e66-a7bbf5a4a943
+# ╟─00000000-0000-0000-0000-000000000001
+# ╟─00000000-0000-0000-0000-000000000002
