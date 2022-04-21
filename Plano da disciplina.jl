@@ -7,7 +7,7 @@ using InteractiveUtils
 # ╔═╡ e6e24892-e2b7-472f-9a5c-7d1cbe34eeb6
 html"<button onclick=present()> Presente </button>"
 
-# ╔═╡ f92f9d30-b368-11eb-2e66-a7bbf5a4a943
+# ╔═╡ 93da4d14-05be-4c0e-8022-4c656f3427f6
 md"""
 # Plano da disciplina de Mecânica dos Sólidos II
 
@@ -25,78 +25,69 @@ md"""
 10. Métodos de Energia.
 11. Flambagem de Colunas.
 12. Método dos Elementos Finitos.
+"""
 
+# ╔═╡ 5f165afd-6992-4d2c-9abe-a73809851624
+md"""
 ## Resultados de aprendizagem esperados
 
-#### 🥇 Identificar as teorias e equações que fundamentam a Mecânica dos Sólidos
+🥇 **Identificar as teorias e equações que fundamentam a Mecânica dos Sólidos.**
 
-#### 🥈 Identificar e calcular os esforços aplicados que se relacionam com a tensão e deformação nos materias.
+🥈 **Identificar e calcular os esforços aplicados que se relacionam com a tensão e deformação nos materias.**
+"""
 
+# ╔═╡ 93fcc616-6a12-45c6-b0a0-889ba8b7c543
+md"""
 ## Metodologia
-
-### Estratégia
 
 Com base no livro de ELMÔR FILHO, Gabriel et al. $(html"<a href='https://g.co/kgs/z62mSU' target='_blank'>Uma nova sala de aula é possível: aprendizagem ativa na educação em engenharia.</a>") Rio de Janeiro: LTC, 2019.
 
 Será aplicada a _**Sala de aula invertida**_ com utilização da Estratégia *Co-op co-op* que é uma estratégia cooperativa de _**aprendizagem ativa**_.
 
-🧑‍🎓 Os estudantes trabalham juntos, em pequenas equipes (4 ou 5 membros), para investigar um tópico ou resolver um problema, e produzir um produto de grupo que eles compartilham com toda a classe.
+🧑‍🎓 Os estudantes trabalham juntos, em pequenas equipes, para investigar um tópico ou resolver um problema, e produzir um produto de grupo que eles compartilham com toda a classe.
 
 🧑‍🎓 Os estudantes cooperam dentro de suas equipes para _**produzir algo que irá beneficiar a turma**_.
 
 👨‍🔬 Mediação do professor em todas as etapas de desenvolvimento da estratégia.
+"""
 
+# ╔═╡ 80be9ca3-edb6-4d84-b2db-26eb4d71abe2
+md"""
 ## Roteiro
 
-#### Momento Pré
+### 1. O professor anuncia por meio de uma orientação por escrito:
 
-🕐 1. O professor anuncia por meio de uma orientação por escrito (Sala):
+- A atividade a ser desenvolvida.
+- Uma síntese da estratégia e 
+- o cronograma incluindo o período para as avaliações da atividade.
 
-   - A atividade a ser desenvolvida.
-   - Uma síntese da estratégia e 
-   - o cronograma incluindo o período para as avaliações da atividade.
+### 2. Resumo do tema
 
-🕑 2. Os estudantes têm a tarefa de ler sobre o assunto e postar no Classroom resumo de uma página do que estudou (Resumo pré).
+- Os estudantes têm a tarefa de ler sobre o assunto e postar no Classroom resumo de uma página do que estudou.
 
-## Roteiro
+### 3. Relatório e Apresentações
 
-#### Momento Aula
+- Envio via Classroom do relatório da atividade.
 
-🕒 3. Rápida verificação do entendimento do tema pelo professor.
+- Apresentações de cada um dos grupos.
 
-🕓 4. Promoção de discussão sobre os interesses no tema que será estudado. O que querem aprender e experienciar durante a unidade?.
+- Avaliações.
 
-🕔 5. Seleção do tópico que cada grupo irá estudar. Os estudantes discutem seus interesses e selecionam um tópico para seu grupo.
+- Feedback.
+"""
 
-🕕 6. Cada grupo divide seu tópico em subtópicos para dividir o trabalho dentro do grupo.
-
-🕖 7. Preparação dos subtópicos pelos membros do grupo (estudo individual).
-
-🕗 8. Os membros do grupo discutem o tema, como um painel de especialistas, apresentando os conceitos e questões chaves (reunião do grupo).
-
-## Roteiro
-
-#### Momento Pós
-
-🕚 9. Preparação das apresentações de cada um dos grupos (reunião do grupo).
-
-🕛 10. Envio via Classroom do relatório da atividade para postagem na internet.
-
-🕐 11. Apresentações de cada um dos grupos (sala).
-
-🕑 12. Avaliações (Extra sala).
-
-🕒 13. Feedback (sala).
-
+# ╔═╡ faf813df-484a-4415-b3bc-d47ebea9be2c
+md"""
 ## Recursos e Materiais Didáticos
 
 1. Google Classroom;
 2. Google Forms para formulários e avaliações;
 3. Google Drive para arquivos (Docs, Slides, Planilhas, Desenhos);
 4. Os recurso $(html"<a href='https://code.visualstudio.com/' target='_blank'>Vscode</a>") e $(html"<a href='https://julialang.org/' target='_blank'>Linguagem Julia</a>") e $(html"<a href='https://github.com/fonsp/Pluto.jl' target='_blank'>Pluto.jl</a>") para Cálculos.
-5. Página do professor para registro dos casos.
+"""
 
-## Indicações de Referências
+# ╔═╡ 3870fd68-f51b-4f64-8c06-408af1c8091d
+md"""
 
 ### Bibliografia principal:
 
@@ -113,8 +104,10 @@ Será aplicada a _**Sala de aula invertida**_ com utilização da Estratégia *C
 5. NORTON, Robert L. Projeto de máquinas: uma abordagem integrada.
 
 6. BUDYNAS, Richard G ; NISBETT, J. Keith. Elementos de máquinas de Shigley.
+"""
 
-
+# ╔═╡ 82015c55-dcb8-4ea7-82aa-015afdee44ee
+md"""
 ## Procedimento de Avaliação da Apredizagem
 
 Avaliação será:
@@ -122,18 +115,24 @@ Avaliação será:
 - Contínua - Individual - Por atividade a ser desenvolvida (60% da nota).
 
 - Prova final (40% da nota).
+"""
 
+# ╔═╡ 2aa320ab-27c2-495b-9e04-299c69894266
+md"""
 ## Procedimento de Avaliação da Apredizagem
 
 ### Regras:
 
-- As avaliações serão feitas via $(html"<a href='https://forms.gle/ZSELRjj28PzqRU9V6' target='_blank'>Formulário Eletrônico no Google Forms (Acesse aqui)</a>"), com excessão do Resumo pré que deve ser entregue via Classroom.
-- Só serão aceitos emails da Unifesspa.
+- As avaliações serão feitas via **Formulário Eletrônico no Google Forms**, com excessão do Resumo pré que deve ser entregue via Classroom.
 - No caso de duplicidade de avaliação será considerada sempre a última avaliação enviada.
 - Serão consideradas apenas as avaliações realizadas no período estipulado, ou até quando estiverem disponíveis no formulário.
 - Cada avaliação receberá uma pontuação de 0 a 100.
 - A nota para o conceito final será a média das notas das atividades propostas.
+- **A prova final será individual**.
+"""
 
+# ╔═╡ 96b8cb08-1d37-4fd0-8271-c7d8ac7736e7
+md"""
 ## Procedimento de Avaliação da Apredizage
 
 ### Composição das Notas
@@ -143,6 +142,10 @@ Para cada atividade serão avaliados:
 1. Apresentações (peso 1).
 2. Contribuições individuais (peso 1).
 3. Relatório da unidade (peso 1).
+"""
+
+# ╔═╡ f92f9d30-b368-11eb-2e66-a7bbf5a4a943
+md"""
 
 ## Procedimento de Avaliação da Apredizagem
 
@@ -173,4 +176,13 @@ Avaliações que serão consideradas:
 
 # ╔═╡ Cell order:
 # ╟─e6e24892-e2b7-472f-9a5c-7d1cbe34eeb6
+# ╟─93da4d14-05be-4c0e-8022-4c656f3427f6
+# ╟─5f165afd-6992-4d2c-9abe-a73809851624
+# ╟─93fcc616-6a12-45c6-b0a0-889ba8b7c543
+# ╟─80be9ca3-edb6-4d84-b2db-26eb4d71abe2
+# ╟─faf813df-484a-4415-b3bc-d47ebea9be2c
+# ╟─3870fd68-f51b-4f64-8c06-408af1c8091d
+# ╟─82015c55-dcb8-4ea7-82aa-015afdee44ee
+# ╟─2aa320ab-27c2-495b-9e04-299c69894266
+# ╟─96b8cb08-1d37-4fd0-8271-c7d8ac7736e7
 # ╟─f92f9d30-b368-11eb-2e66-a7bbf5a4a943
