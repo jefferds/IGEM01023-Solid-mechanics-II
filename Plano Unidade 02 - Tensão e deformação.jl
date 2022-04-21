@@ -7,17 +7,17 @@ using InteractiveUtils
 # ╔═╡ e9af4550-b632-11eb-1d0d-e11b45468706
 html"<button onclick=present()> Presente </button>"
 
-# ╔═╡ 4fb54a13-3db2-4475-bd49-fd0f9d5cefa4
+# ╔═╡ 717418d6-ffae-4d1b-be70-60ea483aac9f
 md"""
-## Plano da Unidade 03 de Mecânica dos Sólidos II
+## Plano da Unidade 02 - Tensão e Deformação.
+"""
 
-### Tema relacionado na ementa:
+# ╔═╡ 33c77197-caa7-43e0-a3b4-7fbbad2e4b87
+md"""
 
-*2. Tensão e Deformação.*
+### 1. Ementa da Unidade 02
 
-### Subitens
-
-*2. TENSÃO E DEFORMAÇÃO — CARREGAMENTO AXIAL*
+#### TENSÃO E DEFORMAÇÃO — CARREGAMENTO AXIAL
 
 - 2.2 Deformação específica normal sob carregamento axial
 - 2.3 Diagrama tensão-deformação
@@ -34,88 +34,82 @@ md"""
 - 2.17 Distribuição de tensão e deformação específica sob carregamento axial; princípio de Saint-Venant
 - 2.18 Concentrações de tensão
 - 2.19 Deformações plásticas
+"""
 
-## Resultados de aprendizagem esperados
+# ╔═╡ f8bbea50-3f27-4f87-ab5b-e077309ec967
+md"""
 
-✔ Apresentar o conceito de deformação.
+## 2. Competências a serem desenvolvidas
 
-✔ Discutir a relação entre tensão e deformação em diferentes materiais.
+_O discente deve ser capaz de:_
 
-✔ Determinar a deformação de elementos estruturais sob carregamento axial.
+1. Apresentar o conceito de deformação.
 
-✔ Apresentar a lei de Hooke e o módulo de elasticidade.
+2. Discutir a relação entre tensão e deformação em diferentes materiais.
 
-✔ Discutir o conceito de deformação transversal e o coeficiente de Poisson.
+3. Determinar a deformação de elementos estruturais sob carregamento axial.
 
-✔ Utilizar as deformações para resolver problemas indeterminados.
+4. Apresentar a lei de Hooke e o módulo de elasticidade.
 
-✔ Definir o princípio de Saint-Venant e a distribuição de tensões.
+5. Discutir o conceito de deformação transversal e o coeficiente de Poisson.
 
-✔ Recapitular a concentração de tensões e como elas são consideradas em projeto.
+6. Utilizar as deformações para resolver problemas indeterminados.
 
-✔ Definir a diferença entre comportamento elástico e plástico por meio da discussão sobre condições como o limite elástico, a deformação plástica e as tensões residuais.
+7. Definir o princípio de Saint-Venant e a distribuição de tensões.
 
-✔ Examinar tópicos específicos relacionados aos materiais compósitos reforçados por fibras, fadiga e carregamento multiaxial.
+8. Recapitular a concentração de tensões e como elas são consideradas em projeto.
 
-✔ Estabelecer relações interpessoais e trabalhar em equipe. 
+9. Definir a diferença entre comportamento elástico e plástico por meio da discussão sobre condições como o limite elástico, a deformação plástica e as tensões residuais.
 
-✔ Comunicar-se oralmente. 
+10. Examinar tópicos específicos relacionados aos materiais compósitos reforçados por fibras, fadiga e carregamento multiaxial.
 
-✔ Ter responsabilidade coletiva.
+11. Estabelecer relações interpessoais e trabalhar em equipe - Comunicar-se oralmente - Ter responsabilidade coletiva.
+"""
 
+# ╔═╡ 9736f037-2b64-4951-a072-5f6753384fd4
+md"""
+## 3. Roteiro da Unidade
 
-# Roteiro da Unidade
+### 3.1. A atividade a ser desenvolvida:
 
-#### Momento Pré
+- (I) Cada grupo deve apresentar o desenvolvimento de pelos menos 3 das competências esperadas na seção _"2. Competências a serem desenvolvidas"_ acima. 
 
-🕐 1. A atividade a ser desenvolvida:
+- (II) Cada membro do grupo deve apresentar a solução de pelo menos um exercício proposto do livro.
 
-*Apresentar os conceitos relacionados ao capitulo 2 do livro do Beer:*
+"""
 
-🕒 2. (120 min) Apresentação do tema pelo professor.
+# ╔═╡ e8cf3f36-b786-4eaa-82bd-e4375e0ecdb3
+md"""
 
-🕑 3. (180 min) Ler o *Capítulo 2. TENSÃO E DEFORMAÇÃO — CARREGAMENTO AXIAL* e postar no Classroom resumo de até uma página do que estudou (Resumo pré);
+### 3.2. Postar o resumo de uma página no Classroom.
 
-##### Bibliografia
+- Ler o *Capítulo 2. TENSÃO E DEFORMAÇÃO — CARREGAMENTO AXIAL* do livro do beer e postar no Classroom resumo de até uma página do que estudou;
+
+*Bibliografia*
 
 * BEER, Ferdinand P. et al. Mecânica dos materiais. Amgh, 2011.
 
 * DeWolf, John T.; Mazurek, David F.; P. Beer, Ferdinand; Johnston JR., E. Russell. Mecânica dos Materiais. AMGH. Edição do Kindle. 
+"""
 
-# Roteiro da aula
+# ╔═╡ 4fb54a13-3db2-4475-bd49-fd0f9d5cefa4
+md"""
 
-#### Momento Aula
 
-🕓 3. (20 min) O que querem aprender e experienciar durante a unidade? (Sala).
+### 3.3. Relatório e Apresentação
 
-🕔 5. (20 min) Seleção dos subitens (reunião do grupo).
-
-🕕 6. (15 min) Divisão dos subitens dentro do grupo (reunião do grupo).
-
-🕖 7. (60 min) Estudo dos subitens pelos membros do grupo (estudo individual).
-
-🕗 8. (20 min) Os membros do grupo discutem os subitens (reunião do grupo).
-
-🕘 9. (10 min) Os membros apresentam para o grupo os subitens (reunião do grupo).
-
-🕙 10. (5 min/grupo) Apresentações de subitens pelos responsáveis (sala).
-
-## Roteiro
-
-#### Momento Pós
-
-🕚 11. (30 min) Preparação das apresentações dos grupos (reunião do grupo).
-
-🕛 12. (10 min) Envio via Classroom do relatório do grupo (atividade do grupo).
-
-🕐 13. (10 min/grupo) Apresentações dos grupos (sala).
-
-🕑 14. (20 min/grupo) Avaliações (sala ou extra sala).
-
-🕒 15. (10 min/grupo) Feedback (sala).
+- Envio via Classroom do relatório do grupo.
+- Apresentações dos grupos **(20 minutos)**.
+- Avaliações.
+- Feedback.
 
 """
 
 # ╔═╡ Cell order:
 # ╟─e9af4550-b632-11eb-1d0d-e11b45468706
-# ╠═4fb54a13-3db2-4475-bd49-fd0f9d5cefa4
+# ╟─717418d6-ffae-4d1b-be70-60ea483aac9f
+# ╟─33c77197-caa7-43e0-a3b4-7fbbad2e4b87
+# ╟─f8bbea50-3f27-4f87-ab5b-e077309ec967
+# ╟─9736f037-2b64-4951-a072-5f6753384fd4
+# ╟─e8cf3f36-b786-4eaa-82bd-e4375e0ecdb3
+# ╟─4fb54a13-3db2-4475-bd49-fd0f9d5cefa4
